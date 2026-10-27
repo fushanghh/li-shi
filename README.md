@@ -16,7 +16,7 @@
 - `PREFERENCES.md`：所有片子都要遵守的制作偏好 + 水浒传系列设定（必读）。
 - `examples/`：示例工程代码与抽帧（xuanzong、chenhuang=战争风；sz2=黑影；shuihu=水浒林冲，含彩色英雄卡 v2/cardstill.py；zhidiao=纸雕；shipin=qq历史特效库）。
 - `fonts/`：Noto Serif SC 字体。
-- 参考样片视频因体积太大没有放进仓库。
+- `reference-clips/`：各画风参考样片的 10 秒片段（第 20–30 秒），只用来看画风，不照抄构图和台词。yuxi/黑影、纸雕没有外部参考片。
 
 ## 给 agent 的安装说明
 1. 克隆本仓库。把 `skills/<名字>/` 放到你的 `/workspace/skills/<名字>/`，`examples/<名字>/` 放到 `/workspace/work/<名字>/`（SKILL.md 里写的路径就是这些位置；qq-lishi 的素材在原路径叫 `/workspace/skills/qq历史/`）。
