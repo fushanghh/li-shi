@@ -26,3 +26,7 @@
 2. 读每个 `skills/*/SKILL.md`，按开头的 name / description 创建同名技能，正文作为技能内容。
 3. 把 `PREFERENCES.md` 记进记忆，做任何一部片都遵守。
 4. 环境：`pip install cairocffi numpy pillow`（搞笑风另需 `edge-tts` 配音）；把 `fonts/` 里的字体拷到 `~/.fonts` 后运行 `fc-cache -f`；需要 ffmpeg。
+
+
+## 人物风（`skills/人物风/`）
+玉溪黑影风的近现代人物传记分支，学自《杨振宁》样片：西装/长衫剪影、年龄计数器、高潮快切+镜子碎裂+红闪震屏，无背景音乐只配合成音效。说明见 [`skills/人物风/SKILL.md`](skills/人物风/SKILL.md)。
