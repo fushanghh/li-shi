@@ -4,7 +4,7 @@ description: 纸雕山河：我们自己的古风动画画风——层叠手剪�
 ---
 # 纸雕山河（自创画风）
 
-吸取各家古风动画优点（皮影关节、玉玺黑影单件发光主体、qq历史道具即信息图、史海的表情动作、战争风的地图叙事），做一个不抄袭的画风，能画人物、建筑、城池、打仗。
+吸取各家古风动画优点（皮影关节、玉玺黑影单件发光主体、qq历史道具即信息图、唐朝风的表情动作、战争风的地图叙事），做一个不抄袭的画风，能画人物、建筑、城池、打仗。
 
 ## 代码
 `/workspace/work/zhidiao/`：`zd.py`（纸层 Layer、手剪毛边 rough、合成 compose：纸纹+按层深投影+顶光暗角+金箔光晕；组件 roof 飞檐、wall 城墙、flag 旗、seal 朱砂印、caption 撕纸条字幕、tag 竖排年代签）、`people.py`（角色 emperor/official/general/lady/soldier/enemy/farmer；表情 calm/angry/shock/smile/sad；道具 spear/sword/tablet/scroll）。定妆图 f1（人物）、f2（地图立起城池）、f3（两军对阵）。字体 Noto Serif CJK SC；pip 装 cairocffi。
