@@ -21,7 +21,7 @@ description: 白起风——战争风底子的“BGM卡点燃剪”人物一生�
 - `scenes.py`：33 个镜头函数 + 通用件 `sky mts ground wall palace throne troops flag arrows embers smoke speedlines stamp(红印章落下震) badge(人物圆章) scroll_sword`。
 - `kit.py`：字体、text、glow、vgrad、flame、moon 等基础件。`hero.py`：早期正面人物稿（已弃用，只留参考）。
 - `go.sh`：`N=2 bash go.sh` 并行渲染 → 拼接 → 混 BGM（`bgm_ext.wav`），成片先写 /tmp 再拷回。
-- `参考视频/样片_白起_卡点10秒.mp4`、`样片截图/全片抽帧.jpg`、`字体/`。用户 BGM 不入库，每次从用户视频重新提取。
+- `参考视频/样片_白起_卡点10秒.mp4`、`样片截图/全片抽帧.jpg`、`字体/`。用户给的 BGM 已入库：`BGM/bgm_原曲.mp3`、`BGM/bgm_加长版_116秒.mp3`（143.55BPM，按拍加长，go.sh 用前转成 bgm_ext.wav）；用户给新视频时仍重新提取。
 
 ## 流程
 1. 环境：`pip install -q numpy cairocffi pillow librosa soundfile`；字体拷到 `~/.fonts` 后 `fc-cache -f`。复制 `引擎/` 到 `/workspace/work/<题目>/war/`。
